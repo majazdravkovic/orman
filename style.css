@@ -8,6 +8,10 @@
 	-webkit-box-sizing: border-box;
 }
 
+html * {
+-webkit-tap-highlight-color: rgba(0, 0, 0, 0);
+}
+
 
 body {
 	font-family: "Lato", "Nunito Sans", sans-serif;
@@ -269,7 +273,6 @@ footer {
 	width: 40px;
 	padding: 10px 0;
 	text-align: center;
-	color: red;
 }
 
 .socialMedia i:hover {
@@ -284,10 +287,6 @@ footer {
 .socialMedia a {
 	color: #333;
 	text-decoration: none;
-}
-
-.socialMeadia a, .socilaMedia i {
-     -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .copyRight {
