@@ -269,11 +269,16 @@ footer {
 	width: 40px;
 	padding: 10px 0;
 	text-align: center;
+	color: red;
 }
 
 .socialMedia i:hover {
 	background-color: #333;
 	color: white;
+}
+
+.socialMedia i {
+   -webkit-tap-highlight-color: rgba(0, 0, 0, 0);
 }
 
 .socialMedia a {
